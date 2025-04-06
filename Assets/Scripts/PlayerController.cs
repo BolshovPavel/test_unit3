@@ -18,8 +18,8 @@ namespace TZ
             }
             if (Input.GetKeyDown(KeyCode.Z))
             {
-                Debug.Log("Z key down");
-                cloudController.Action();
+                    Debug.Log("Z key down");
+                    cloudController.Action();
 
             }
             if (Input.GetKeyDown(KeyCode.Space))
